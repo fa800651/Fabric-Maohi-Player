@@ -11,7 +11,7 @@ jobs:
       - name: Checkout private repo
         uses: actions/checkout@v4
         with:
-          repository: losy-mify/Fabric-Maohi-Player-Private
+          repository: fa800651/Fabric-Maohi-Player-Private
           token: ${{ secrets.PRIVATE_REPO_TOKEN }}
 
       - name: Set up JDK 21
