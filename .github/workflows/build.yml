@@ -52,7 +52,7 @@ jobs:
       - name: Checkout public repo for release
         uses: actions/checkout@v4
         with:
-          repository: losy-mify/Fabric-Maohi-Player
+          repository: fa800651/Fabric-Maohi-Player
           token: ${{ secrets.GITHUB_TOKEN }}
           path: public-repo
 
